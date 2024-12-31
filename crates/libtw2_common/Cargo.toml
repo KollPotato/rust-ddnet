@@ -1,0 +1,13 @@
+[package]
+name = "libtw2-common"
+version = "0.0.1"
+authors = ["heinrich5991 <heinrich5991@gmail.com>"]
+license = "MIT/Apache-2.0"
+edition = "2021"
+rust-version = "1.63.0"
+
+[dependencies]
+arrayvec = "0.5.2"
+file_offset = "0.1.0"
+serde = "1.0.23"
+zerocopy = "0.7.32"

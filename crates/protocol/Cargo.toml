@@ -1,0 +1,13 @@
+[package]
+name = "protocol"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+bevy_ecs.workspace = true
+bevy_app.workspace = true
+uuid.workspace = true
+packer.workspace = true
+libtw2-huffman.workspace = true
+vecmap-rs = "0.2.2"
+log.workspace = true

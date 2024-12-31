@@ -1,0 +1,17 @@
+[package]
+name = "server"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+libtw2-datafile.workspace = true
+uuid.workspace = true
+libtw2-map.workspace = true
+packer.workspace = true
+protocol.workspace = true
+log.workspace = true
+env_logger.workspace = true
+bevy_ecs.workspace = true
+bevy_app.workspace = true
+ndarray = "0.9.1"
+arrayvec = "0.5.2"

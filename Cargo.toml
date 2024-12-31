@@ -1,0 +1,31 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/libtw2_common",
+    "crates/libtw2_datafile",
+    "crates/libtw2_huffman",
+    "crates/libtw2_zlib_minimal",
+    "crates/libtw2_map",
+    "crates/packer",
+    "crates/uuid",
+    "crates/server",
+    "crates/protocol",
+]
+
+[workspace.dependencies]
+log = "0.4.22"
+env_logger = "0.11.6"
+serde = "1.0.216"
+serde_derive = "1.0.216"
+bevy_ecs = "0.15.0"
+bevy_app = "0.15.0"
+
+libtw2-common = { path = "crates/libtw2_common" }
+libtw2-datafile = { path = "crates/libtw2_datafile" }
+libtw2-zlib-minimal = { path = "crates/libtw2_zlib_minimal" }
+libtw2-huffman = { path = "crates/libtw2_huffman" }
+libtw2-map = { path = "crates/libtw2_map" }
+
+protocol = { path = "crates/protocol" }
+uuid = { path = "crates/uuid" }
+packer = { path = "crates/packer" }
